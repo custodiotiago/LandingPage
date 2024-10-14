@@ -1,0 +1,22 @@
+.navbar {
+    display:flex;
+    flex-direction: row;
+    border-style: solid;
+    border-color: red;
+    justify-content: space-between;
+}
+
+.navbar_logo {
+    
+    border-style: solid;
+    border-color: red;
+}
+
+.navbar_buttons {
+    border-style: solid;
+    border-color: red;
+}
+
+* {
+    background-color: rgb(241, 232, 232);
+}
