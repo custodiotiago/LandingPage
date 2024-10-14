@@ -54,6 +54,34 @@
 
 .contentDiv1 {
     background-color: #1F2937;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#mainDescription{
+    background-color: #1F2937;
+    margin-top: 100px;
+    text-align: left;    
+}
+
+#mainDescription h1 {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+}
+
+#mainDescription p {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+#mainImage{
+    margin-top: 150px;
+    background-color: #1F2937;
 }
 
 .contentDiv2, .contentDiv4 {
