@@ -39,6 +39,18 @@
     border-color: red;
 }
 
+.contentDiv1 {
+    background-color: #1F2937;
+}
+
+.contentDiv2, .contentDiv4 {
+    background-color: white;
+}
+
+.contentDiv3 {
+    background-color: #E5E7EB;
+}
+
 .root {
     height: 100px;
     width: 100%;
