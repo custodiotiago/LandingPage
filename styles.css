@@ -1,22 +1,48 @@
+* {
+    background-color: rgb(241, 232, 232);
+}
+
 .navbar {
     display:flex;
     flex-direction: row;
     border-style: solid;
     border-color: red;
     justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    background-color: #1F2937;
 }
 
 .navbar_logo {
     
     border-style: solid;
     border-color: red;
+    background-color: #1F2937;
 }
 
 .navbar_buttons {
     border-style: solid;
     border-color: red;
+    background-color: #1F2937;
+    width: 30%;
 }
 
-* {
-    background-color: rgb(241, 232, 232);
+.navbar_buttons ul {
+    display:flex;    
+    justify-content:space-evenly;
+}
+
+.contentDiv1, .contentDiv2, .contentDiv3, .contentDiv4 {    
+    height: 400px;
+    width: 100%;
+    border-style: solid;
+    border-color: red;
+}
+
+.root {
+    height: 100px;
+    width: 100%;
+    border-style: solid;
+    border-color: red;
+    background-color: #1F2937;
 }
