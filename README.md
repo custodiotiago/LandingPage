@@ -1,2 +1,2 @@
 # LandingPage
-To practric frontend with HTML and CSS
+To practice frontend with HTML and CSS
