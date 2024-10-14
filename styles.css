@@ -13,11 +13,19 @@
     background-color: #1F2937;
 }
 
-.navbar_logo {
-    
+.navbar_logo {   
     border-style: solid;
     border-color: red;
     background-color: #1F2937;
+    width: 10%;
+}
+
+.navbar_logo p{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
 
 .navbar_buttons {
@@ -25,11 +33,16 @@
     border-color: red;
     background-color: #1F2937;
     width: 30%;
+    display:flex;    
+    flex-direction: row;
+    justify-content:space-evenly;
 }
 
-.navbar_buttons ul {
-    display:flex;    
-    justify-content:space-evenly;
+.navbar_buttons p {
+    background-color: #1F2937;
+    font-size: 16px;
+    color: #E5E7EB;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contentDiv1, .contentDiv2, .contentDiv3, .contentDiv4 {    
