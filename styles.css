@@ -4,18 +4,14 @@
 
 .navbar {
     display:flex;
-    flex-direction: row;
-    border-style: solid;
-    border-color: red;
+    flex-direction: row;    
     justify-content: space-between;
     height: 100px;
     width: 100%;
     background-color: #1F2937;
 }
 
-.navbar_logo {   
-    border-style: solid;
-    border-color: red;
+.navbar_logo {      
     background-color: #1F2937;
     width: 10%;
 }
@@ -30,8 +26,6 @@
 }
 
 .navbar_buttons {
-    border-style: solid;
-    border-color: red;
     background-color: #1F2937;
     width: 30%;
     display:flex;    
@@ -49,9 +43,7 @@
 
 .contentDiv1, .contentDiv2, .contentDiv3, .contentDiv4 {    
     height: 400px;
-    width: 100%;
-    border-style: solid;
-    border-color: red;
+    width: 100%;    
 }
 
 .contentDiv1 {
@@ -80,6 +72,21 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-weight: bold;
+}
+
+#signupButton {
+    background-color: #007bff; /* Azul */
+    color: white; /* Texto branco */
+    border: none; /* Remove borda padrão */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background-color 0.3s; /* Suave transição de cor */
+}
+
+#signupButton:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
 }
 
 #mainImage{
@@ -114,53 +121,83 @@
     margin-top:50px;
     display:flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+    background-color: white;
 }
 
-.imgMini {
-    border-style: solid;
-    border-color: rgb(48, 12, 177);
-    height: 100px;
-    width: 100px;
+.imgMini {    
+    height: 150px;
+    width: 250px;
+    border-radius: 25px;
 }
 
 .contentDiv3 {
     background-color: #E5E7EB;
+    padding: 30px;
 }
 
-.contentDiv3 p {
+.contentDiv3 p {    
+    margin-top:100px;
+    text-align: center;
+    background-color: #E5E7EB;   
+}
+
+#billGatesQuote {
     font-weight:lighter;
     font-family:cursive;
     font-size: 24px;
-    margin-top:100px;
-    text-align: center;
-    background-color: #E5E7EB;
 }
 
+#quoteSignature {    
+    font-family:cursive;
+    font-size: 20px;  
+}
 .contentDiv4 {
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
 }
+
 #callAction {
-    border-style: solid;
-    border-color: rgb(48, 12, 177);
-    height: 100px;
-    width: 300px;
-    margin-top: 100px; 
-    font-weight: bold;
-    color: #ffffff;
-    margin-top: 50px;
+    margin-top: 120px;
+    background-color: #5b6672; /* Azul */
+    color: white; /* Texto branco */
+    border: none; /* Remove borda padrão */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    transition: background-color 0.3s; /* Suave transição de cor */
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+#callAction p {
+    margin-top: 40px;
+    background-color: #5b6672;
+    color: white;
+    font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 24px;    
-    background-color: rgb(106, 80, 167);   
-    justify-content: space-evenly;
 }
 
 .root {
     height: 100px;
-    width: 100%;
-    border-style: solid;
-    border-color: red;
-    background-color: #1F2937;       
+    width: 100%;     
+    background-color: #1F2937;     
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;  
+}
+
+.root p {
+    margin-top: 30px;
+    background-color: #1F2937; 
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
