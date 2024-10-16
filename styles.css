@@ -98,31 +98,29 @@
     width: 500px;
 }
 
-.contentDiv2, .contentDiv4 {
-    background-color: white;
-}
-
 .contentDiv2 {
+    display:flex;
     flex-direction: column;
-    text-align: center;
+    justify-content:space-evenly;
     background-color: white;
+    text-align: center;
 }
 
-#someInformation p {
+.contentDiv2 p {
     background-color: white;
     font-weight: bold;
     color: #1F2937;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
 }
 
 #imageGallery {
-    margin-top:50px;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
+    margin-bottom: 30px;
 }
 
 .imgMini {    
@@ -156,6 +154,7 @@
     display:flex;
     flex-direction: row;
     justify-content:space-evenly;
+    background-color: white;
 }
 
 #callAction {
